@@ -19,9 +19,9 @@ import java.util.List;
  *               -- 2022/10/5
  */
 public class AllConfig {
-    public static final String VxAppId = "微信的APPID";
-    public static final String VxAppSecret = "微信的密钥";
-    public static final String WeatherKey = "高德地图key";
+    public static final String VxAppId = "wx994a8092ea350503";
+    public static final String VxAppSecret = "9a8b21f16b9f6fc46d6fb89fbd147506";
+    public static final String WeatherKey = "4d8234a99e358c82c6d94cd18595e1d1";
 
     //下列所有填写的  true 为开启， false 为不开启 ，#XXXXXX是颜色16进制HEX码（不知道颜色16进制HEX码可以百度）
     //系统开关
@@ -69,25 +69,25 @@ public class AllConfig {
         //注意：日期里面的数字，填正常的数字就行了.比如1就是1，不要填01
         //注意：每个用户信息的最后一项不需要加逗号！！！
         userList.add(getUser(
-                "这个人的微信号", //扫码关注你的测试号以后，测试平台会出现TA的微信号
-                "模板ID", //要给这个人发送的模板ID
-                "pt", //咋称呼这个人
-                "江苏省南京市玄武区", //这个人的详细地址
-                "南京", //这个人在的城市
-                new BirthDay(1999,2,15,true,false), //分别代表年、月、日、是否是农历(true为农历、false为公历)、是否统计天数(true为统计，false为倒计时)
-                new BirthDay(1999,8,11,false,false),
+                "oce4E6dWn1gH1_iMIWEG4gs5v9jw", //扫码关注你的测试号以后，测试平台会出现TA的微信号
+                "4GdCb-AcUXymH2UjfJuuuUeLr92LisBKNrg1F-bA4Xw", //要给这个人发送的模板ID
+                "米熊公主殿下 ", //咋称呼这个人
+                "湖南省郴州市北湖区", //这个人的详细地址
+                "郴州", //这个人在的城市
+                new BirthDay(2004,7,12,false,false), //分别代表年、月、日、是否是农历(true为农历、false为公历)、是否统计天数(true为统计，false为倒计时)
+                new BirthDay(2003,7,3,false,false),
                 new BirthDay(2020,7,8,true,true),
                 new BirthDay(2020,7,8,true,false)
         ));
 
         userList.add(getUser(
-                "这个人扫码后的微信号",//扫码关注你的测试号以后，测试平台会出现TA的微信号
-                "微信消息模板ID",//要给这个人发送的模板ID
-                "这个人的称呼",//咋称呼这个人
-                "江苏省南京市玄武区",//这个人的详细地址
-                "南京",//这个人在的城市
-                new BirthDay(1999,8,11,false,false),
-                new BirthDay(1999,2,15,true,false),
+                "oce4E6e0EftsO-SZJENcyIywny0M",//扫码关注你的测试号以后，测试平台会出现TA的微信号
+                "InK356lsk_fixTwpePPm7vr3YK8MCuefN4rteWVwc5w",//要给这个人发送的模板ID
+                "崽崽",//咋称呼这个人
+                "湖南省株洲市石峰区",//这个人的详细地址
+                "株洲",//这个人在的城市
+                new BirthDay(2004,7,12,false,false),
+                new BirthDay(2003,7,03,false,false),
                 new BirthDay(2020,7,8,true,true),
                 new BirthDay(2020,7,8,true,false)
         ));
